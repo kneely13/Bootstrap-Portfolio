@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Kristian's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="main.js"></script>
@@ -18,14 +18,14 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="portfolio.html">Portfolio</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact</a><span class="sr-only">(current)</span></a>
       </li>
       <!-- <li class="nav-item"> -->
         <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
@@ -40,16 +40,51 @@
       1 of 3
     </div>
     <div class="col-md-10 col-sm-12">
-      2 of 3 (wider)
+      <br>
+      <h2>Contact</h2>
+      <hr>
+    </div>
+    <div class="col-md-1 col-sm-12">
+      3 of 3
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-1 col-sm-12">
+      1 of 3
+    </div>
+    <div class="col-md-10 col-sm-12">
+      <form method="post" action="mailto:youremail@youremail.com" >
+        <section id="contact-info">
+          <ul class="contact-form">
+            <br>
+            <li><strong>Name</strong></li>
+            <input class="form-control form-control-lg" name="textbox1" type="text" placeholder="ex. Kristian Neely">
+            <br>
+            <br>
+            <li><strong>Email</strong></li>
+            <input class="form-control form-control-lg" name="textbox2" type="text" placeholder="ex. email@students.ndc.edu">
+            <br>
+            <br>
+            <li><strong>Message</strong> 
+            <br>
+            <textarea class="form-control form-control-lg" name="message" type="text" placeholder="Type your message here..." ></textarea>   
+          </ul>
+          <br>
+          <input class="button" type="submit" value="Send Email">
+        </section>
+      </form>  
     </div>
     <div class="col-md-1 col-sm-12">
       3 of 3
     </div>
   </div>
 </div>
-   <p>contact</p> 
+
 </body>
 <footer>
-  text
+  <div class="footer-wrapper">
+    <p>Copyright &copy;</p>
+  </div>
 </footer>
 </html>
