@@ -5,6 +5,7 @@
         background-color:lightgray;
         font-family: "Work Sans", sans-serif;
         font-weight: 300;
+        text-align: left;
      }
 
      nav{
@@ -15,6 +16,8 @@
  nav a{
     color: white;
 } 
+
+
    img {
     vertical-align: middle;
     border-style: none;
@@ -22,20 +25,14 @@
     padding-top: 1em;
     padding-bottom: 1em;
    }
-/* hr {
-    width: 795px;
+hr {
+    width: 918px;
     background-color:#1D2F3E;
     font-style: oblique;
     height: 1px;
-} */
-/* h2 {
-    color:#1D2F3E;
-    padding:0.5em;
-    margin-left: 70px; 
-    margin-top:28px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 27px;
- }  */
+    position:relative;
+}
+ 
 
  #masthead {
     position: fixed;
@@ -69,6 +66,7 @@
     border: solid 1px #666666;
     margin: auto;
     padding-bottom: 1.5em; 
+    margin-top:6em;
 } 
 
 p {
@@ -89,9 +87,7 @@ p {
     
 } 
 
-  /* textarea ul {
-    list-style-type: none;
-} */
+  
 
 footer {
     background-color:#1D2F3E;
@@ -115,50 +111,6 @@ footer {
     display: block;
     margin-top: 0em;
 } 
-/* footer p{
-    color: gray;
-    padding-left:45%;
-    position: relative;
-    } */
-
-/* table {
-    width:945px;
-    display: table;
-    border-collapse: separate;
-    border-spacing: 2px;
-    padding: 0.5em;
-    
-} */
-    
-/* tr {
-    padding-top: 1.2em;
-    padding-right: 4.2em;
-    padding-bottom: 1.2em;
-    padding-left: 2.7em;
-    vertical-align: inherit;
-    margin: 12px;
-    
-} */
-
-
-
-/* td {
-    
-    display: table-cell;
-    vertical-align: inherit;
-    padding: 3.5em;
-    padding-top: 1.5em;
-    padding-right: 4.5em;
-    padding-bottom: 1.5em;
-    padding-left: 3em;
-} */
-
-/* .contact-form {
- margin:40px;
-} */
-
-
-
 .text-profile-image p {
         margin: auto;
         padding-top: 8em;
@@ -178,7 +130,7 @@ footer {
         position: relative;
         float: inherit;
         width: 274px;
-        margin: -7px 85px 25px 75px;
+        margin: -7px 85px 25px 44px;
         overflow: auto;
         /* padding-left: inherit; */
         /* padding: 1em; */
@@ -221,3 +173,24 @@ footer {
     margin-right: 25px;
   }
   
+footer p{
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-top: 1em;
+    position: left;
+    line-height: 25px;
+    padding-left: 43em;
+}
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
