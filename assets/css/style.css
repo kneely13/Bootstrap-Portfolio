@@ -24,13 +24,17 @@
     padding-right: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
+    height:auto;
    }
+
 hr {
-    width: 918px;
+    max-width: 918px;
     background-color:#1D2F3E;
     font-style: oblique;
     height: 1px;
     position:relative;
+    width:100%;
+
 }
  
 
